@@ -3,6 +3,7 @@ import pandas as pd
 import requests
 import json
 
+##
 def calculate_sip(monthly_investment, annual_return, years, annual_step_up):
     monthly_return = (annual_return / 12) / 100
     total_months = years * 12
